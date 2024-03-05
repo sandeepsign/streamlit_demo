@@ -3,10 +3,10 @@ import streamlit as st
 side_bar = st.sidebar.selectbox('Selector Name', ('Choice 1','Choice 2'))
 
 if side_bar == 'Choice 1':
-     st.write('Choice 1')
+     st.write('Option 1')
 
 if side_bar == 'Choice 2':
-     st.write('Choice 2')
+     st.write('Option 2')
 
 import numpy as np
 import altair as alt
